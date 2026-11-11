@@ -2,6 +2,9 @@
 
 Arkadaş ekibinin birlikte geliştirdiği dating uygulaması.
 
+**Ekibe yeni katılanlar: [Buradan başlayın →](docs/EKIP-BASLANGIC.md)**
+Erişim, görev seçimi, projeyi indirme ve ajana verilecek metin tek sayfada.
+
 ## Durum
 Proje başlangıç aşamasında. Uygulama kodu ve kurulum komutları henüz yok.
 Web/mobil ve teknoloji seçimi ekip tarafından netleştirilecek. Bağımsız kod paketleri için TypeScript ve fake adaptör başlangıç sözleşmesi docs/CONTRACTS.md içinde.
