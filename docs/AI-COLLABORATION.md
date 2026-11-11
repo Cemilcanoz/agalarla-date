@@ -13,7 +13,8 @@ Amaç işi bölmek. Kesin token tasarrufu garantisi yok; kısa bağlam ve küç�
 ## Ajana kopyalanacak metin
 ```text
 Agalarla Date deposunda issue #N, PR dilimi [başlık] üzerinde çalış.
-Önce issue, CONTRIBUTING.md, docs/CONTRACTS.md ve docs/OWNERSHIP.md oku.
+Önce AGENTS.md dosyasını ve oradan bu işe uygun SKILL.md dosyasını oku.
+Ardından issue, CONTRIBUTING.md, docs/CONTRACTS.md ve docs/OWNERSHIP.md oku.
 Yalnız ilgili kaynak dosyalarını bul; bütün depoyu/skill kataloglarını bağlama yükleme.
 Diğer modülü bekleme; port sözleşmesine uygun fake adaptörle bağımsız teslim et. Gerçek entegrasyon yapıldı deme.
 En fazla 5 maddelik kısa plan yaz, sonra seçilen dilimi uygula.
@@ -26,7 +27,7 @@ Sonuç: değişen dosyalar, çalıştırılan komut/sonuç, kalan engel. PR'ı i
 
 ## Birlikte çalışırken
 - docs/CONTRACTS.md v0: ortak dil/veri/port başlangıç varsayımları; ürün platformu henüz ekipçe kesinleştirilmedi.
-- Issue içindeki paket klasörüne sahip çıkın; diğer paketleri ve kök lockfile dosyasını değiştirmeyin.
+- Issue içindeki dosya alanına sahip çıkın; kök workspace/lockfile yalnız #4 alanıdır.
 - Ortak bağımlılık/lockfile, migration ve sözleşme dosyalarında eşzamanlı değişiklikleri koordine edin.
 - Ajan konuşmalarını bütün halinde taşımayın; PR'a amaç, değişiklik, test ve kalan işi yazın.
 - Doküman/görsel değişiklikte anlamsız test üretmeyin; eşleşme, erişim ve engelleme davranışında gerçek regresyon testi kullanın.
@@ -42,3 +43,18 @@ Bu depolar kurulmadı; yöntemleri projeye uyarladık. Bütün otomasyon/ajan zi
 Bağlam sınırı, alt ajan açmama ve iki başarısız deneme sonrası devir, bu ekibin kullanım limitleri için önerilen uyarlamalardır; kaynakların ölçülmüş token garantisi değildir.
 
 Modüler yerleşim: docs/ARCHITECTURE.md. Kabuk apps/web; özellikler packages/<modül>; başka özelliğin iç dosyaları import edilmez.
+
+## Repo ile gelen ajan yönergeleri
+AGENTS.md ana giriş; packages/AGENTS.md ve apps/AGENTS.md ilgili alanın ek kurallarıdır.
+Üç kısa proje skill'i .agents/skills altında bulunur. Skill keşfi kullandığınız araca göre değişir;
+her araçta otomatik yüklenme garantisi yoktur. Claude için CLAUDE.md ana dosyayı işaret eder.
+Başka bir ajan kullanıyorsanız şu metni verin:
+
+```text
+Önce bu reponun AGENTS.md dosyasını oku ve ilgili proje skill'ini aç.
+Issue #N'nin yalnız seçtiğim dilimini modüler plana ve dosya sahipliğine uyarak tamamla.
+```
+
+Clone/pull bu dosyaları da getirir; global eklenti kurmak gerekmez.
+Bunlar ajan yönergeleridir, teknik engelleme sistemi değildir. CI/branch koruması henüz kurulmuş sayılmaz;
+#5 kapsamında otomatik kontroller ayrıca hazırlanacaktır. Mimari uyum PR incelemesinde kontrol edilir.

@@ -34,3 +34,7 @@ Platform, teknoloji, teslim tarihi, ekip kullanıcı adları ve görev sahipleri
 ## Modüler yapı
 [Plan ve klasör ağacı](docs/ARCHITECTURE.md) · [Görev/dosya sahipliği](docs/OWNERSHIP.md).
 Klasörler README iskeletleriyle oluşturuldu; henüz çalıştırılabilir uygulama veya paket kurulumu yok.
+
+## Ajanla başlayacak arkadaşlar
+Önce [AGENTS.md](AGENTS.md) okuyun; gerekli proje skill’leri [.agents/skills](.agents/skills) içinde.
+[Başlatma metni ve araç uyumluluğu](docs/AI-COLLABORATION.md). Plan ve kurallar repo ile birlikte gelir.

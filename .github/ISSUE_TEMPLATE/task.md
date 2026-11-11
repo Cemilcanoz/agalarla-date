@@ -20,4 +20,4 @@ about: Küçük ve doğrulanabilir bir geliştirme işi
 ## Sahip olunan klasör / ortak sözleşme
 
 ## Ajana verilecek kapsam
-Yalnız seçilen dilim. docs/AI-COLLABORATION.md rehberini kullan.
+Önce AGENTS.md ve ilgili .agents/skills/*/SKILL.md dosyasını oku. Yalnız seçilen dilim; docs/AI-COLLABORATION.md rehberini kullan.
