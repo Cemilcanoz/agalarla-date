@@ -19,3 +19,6 @@ Mesaj ve profil erişimi yalnız arayüzde değil sunucuda/veritabanında denetl
 ## Ekip düzeni önerisi
 İkişerli üç çalışma alanı: profil/keşfet, eşleşme/mesaj, altyapı/kalite.
 Roller sabit olmak zorunda değil; her işi yapanın dışında bir kişi inceler.
+
+## AI ile katkı
+[Kendi ajanınızla çalışma rehberi](docs/AI-COLLABORATION.md): issue başına küçük PR, kopyalanabilir görev metni ve kaynaklar.

@@ -13,3 +13,11 @@ about: Küçük ve doğrulanabilir bir geliştirme işi
 ## Bağımlılıklar
 
 ## Nasıl denenecek?
+
+## Küçük PR dilimleri
+- [ ] Tek davranış veya teslim
+
+## İlgili dosyalar / sözleşme
+
+## Ajana verilecek kapsam
+Yalnız seçilen dilim. docs/AI-COLLABORATION.md rehberini kullan.
