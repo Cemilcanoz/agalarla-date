@@ -4,7 +4,7 @@ Arkadaş ekibinin birlikte geliştirdiği dating uygulaması.
 
 ## Durum
 Proje başlangıç aşamasında. Uygulama kodu ve kurulum komutları henüz yok.
-Web/mobil ve teknoloji seçimi ekip tarafından netleştirilecek.
+Web/mobil ve teknoloji seçimi ekip tarafından netleştirilecek. Bağımsız kod paketleri için TypeScript ve fake adaptör başlangıç sözleşmesi docs/CONTRACTS.md içinde.
 
 ## Önerilen ilk sürüm
 18+ davetli test grubu; geliştirme demosunda kurgu profiller.
@@ -18,7 +18,9 @@ Web/mobil ve teknoloji seçimi ekip tarafından netleştirilecek.
 
 ## Birlikte çalışma
 [Katkı rehberi](CONTRIBUTING.md) ve [başlangıç görevleri](docs/BACKLOG.md).
+13 görevin hepsi hemen seçilebilir; numaralar sıra değildir. Ortak portlara uygun fake adaptörlerle geliştirin.
 Her görev için ayrı dal, küçük PR ve bir ekip arkadaşının incelemesi önerilir.
+Gerçek parçaların birleştirilmesi docs/INTEGRATION.md kontrol listesiyle izlenir.
 `main` çalışır sürümü temsil eder. Koruma kuralları henüz uygulanmadı.
 
 ## İlk demo kabulü

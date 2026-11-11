@@ -4,7 +4,7 @@ Her arkadaş kendi hesabı/ajanıyla bir görevi üstlenir; hesap veya anahtar p
 Amaç işi bölmek. Kesin token tasarrufu garantisi yok; kısa bağlam ve küçük PR yeniden çalışma ihtiyacını azaltabilir.
 
 ## Başlama
-1. #1, #2 veya #12 bugün alınabilir. Kod görevleri #1 kararları ve #3/#4 temeli sonrası açılır.
+1. 13 issue da hemen seçilebilir. docs/CONTRACTS.md v0 kullan; eksik servisleri kendi paketinde fake adaptörle karşıla.
 2. Issue'yu kendine ata; aynı işe iki kişinin başlamaması için durum etiketini güncelle.
 3. Güncel main'den görev dalı aç. Ortak şema/sözleşme değişikliklerini önce ilgili görev sahibiyle konuş.
 4. Issue içindeki küçük PR dilimlerinden yalnız birini seç. Her dilim bittiğinde ilgili ölçütü işaretle; bütün ölçütler bitmeden issue'yu kapatma.
@@ -13,9 +13,9 @@ Amaç işi bölmek. Kesin token tasarrufu garantisi yok; kısa bağlam ve küç�
 ## Ajana kopyalanacak metin
 ```text
 Agalarla Date deposunda issue #N, PR dilimi [başlık] üzerinde çalış.
-Önce issue ve bağımlılıklarını, CONTRIBUTING.md ve varsa docs/DECISIONS.md oku.
+Önce issue, CONTRIBUTING.md ve docs/CONTRACTS.md oku.
 Yalnız ilgili kaynak dosyalarını bul; bütün depoyu/skill kataloglarını bağlama yükleme.
-Önkoşul eksikse uygulama veya test başarısı uydurma; eksik sözleşmeyi bildir.
+Diğer modülü bekleme; port sözleşmesine uygun fake adaptörle bağımsız teslim et. Gerçek entegrasyon yapıldı deme.
 En fazla 5 maddelik kısa plan yaz, sonra seçilen dilimi uygula.
 Paylaşılan API/veri biçimini değiştirme; gerekiyorsa önce değişiklik ihtiyacını belirt.
 Davranış hatası/erişim kuralı için önce hatayı gösteren hedefli test, sonra en küçük düzeltme yap.
@@ -25,8 +25,8 @@ Sonuç: değişen dosyalar, çalıştırılan komut/sonuç, kalan engel. PR'ı i
 ```
 
 ## Birlikte çalışırken
-- docs/DECISIONS.md: #1 sahibinin yazacağı kısa ürün/teknoloji kararı. Henüz teknoloji seçilmedi.
-- docs/CONTRACTS.md: #3 sahibinin yazacağı veri/API/erişim sözleşmeleri. Dosya yolları #4 iskeletiyle netleşir.
+- docs/CONTRACTS.md v0: ortak dil/veri/port başlangıç varsayımları; ürün platformu henüz ekipçe kesinleştirilmedi.
+- Issue içindeki paket klasörüne sahip çıkın; diğer paketleri ve kök lockfile dosyasını değiştirmeyin.
 - Ortak bağımlılık/lockfile, migration ve sözleşme dosyalarında eşzamanlı değişiklikleri koordine edin.
 - Ajan konuşmalarını bütün halinde taşımayın; PR'a amaç, değişiklik, test ve kalan işi yazın.
 - Doküman/görsel değişiklikte anlamsız test üretmeyin; eşleşme, erişim ve engelleme davranışında gerçek regresyon testi kullanın.
