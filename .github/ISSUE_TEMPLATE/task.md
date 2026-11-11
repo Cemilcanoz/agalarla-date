@@ -10,14 +10,14 @@ about: Küçük ve doğrulanabilir bir geliştirme işi
 ## Kabul ölçütleri
 - [ ] 
 
-## Bağımlılıklar
+## Kullanılan portlar ve fake ile başlama
 
 ## Nasıl denenecek?
 
 ## Küçük PR dilimleri
 - [ ] Tek davranış veya teslim
 
-## İlgili dosyalar / sözleşme
+## Sahip olunan klasör / ortak sözleşme
 
 ## Ajana verilecek kapsam
 Yalnız seçilen dilim. docs/AI-COLLABORATION.md rehberini kullan.

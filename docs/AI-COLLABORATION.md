@@ -13,7 +13,7 @@ Amaç işi bölmek. Kesin token tasarrufu garantisi yok; kısa bağlam ve küç�
 ## Ajana kopyalanacak metin
 ```text
 Agalarla Date deposunda issue #N, PR dilimi [başlık] üzerinde çalış.
-Önce issue, CONTRIBUTING.md ve docs/CONTRACTS.md oku.
+Önce issue, CONTRIBUTING.md, docs/CONTRACTS.md ve docs/OWNERSHIP.md oku.
 Yalnız ilgili kaynak dosyalarını bul; bütün depoyu/skill kataloglarını bağlama yükleme.
 Diğer modülü bekleme; port sözleşmesine uygun fake adaptörle bağımsız teslim et. Gerçek entegrasyon yapıldı deme.
 En fazla 5 maddelik kısa plan yaz, sonra seçilen dilimi uygula.
@@ -40,3 +40,5 @@ Bu depolar kurulmadı; yöntemleri projeye uyarladık. Bütün otomasyon/ajan zi
 - [Anthropic webapp-testing](https://github.com/anthropics/skills/blob/main/skills/webapp-testing/SKILL.md): çalışan web uygulamasında arayüz doğrulama (#5, #12–13).
 
 Bağlam sınırı, alt ajan açmama ve iki başarısız deneme sonrası devir, bu ekibin kullanım limitleri için önerilen uyarlamalardır; kaynakların ölçülmüş token garantisi değildir.
+
+Modüler yerleşim: docs/ARCHITECTURE.md. Kabuk apps/web; özellikler packages/<modül>; başka özelliğin iç dosyaları import edilmez.

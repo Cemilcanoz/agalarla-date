@@ -22,3 +22,6 @@ Roller sabit olmak zorunda değil; her işi yapanın dışında bir kişi incele
 
 ## AI ile katkı
 [Kendi ajanınızla çalışma rehberi](docs/AI-COLLABORATION.md): issue başına küçük PR, kopyalanabilir görev metni ve kaynaklar.
+
+## Modül sınırı
+Önce docs/ARCHITECTURE.md ve docs/OWNERSHIP.md oku. Başka özellik paketinin src içini import etme; ortak portları kullan. apps/web yalnız dış girişleri bağlar. Herkes yalnız seçtiği görevin dosya alanında çalışır.

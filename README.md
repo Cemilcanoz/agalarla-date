@@ -30,3 +30,7 @@ Engellenen hesap yeni mesaj gönderemez; şikayet yetkili inceleme ekranına dü
 
 ## Açık kararlar
 Platform, teknoloji, teslim tarihi, ekip kullanıcı adları ve görev sahipleri.
+
+## Modüler yapı
+[Plan ve klasör ağacı](docs/ARCHITECTURE.md) · [Görev/dosya sahipliği](docs/OWNERSHIP.md).
+Klasörler README iskeletleriyle oluşturuldu; henüz çalıştırılabilir uygulama veya paket kurulumu yok.

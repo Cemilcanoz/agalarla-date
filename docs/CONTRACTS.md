@@ -41,3 +41,6 @@ Silinmiş/pasif profil keşifte görünmez. Sunucu ve DB erişim kontrolleri ger
 Kendi paketinizde yukarıdaki portların sadece ihtiyacınız olan fake implementasyonlarını yazın.
 Fake adaptör test içindir, üretim güvenliği veya DB eşzamanlılığı kanıtı değildir.
 Sözleşme değişikliği ayrı PR ile önerilir; sessizce alan/işlem adı değiştirmeyin.
+
+## Modül yerleşimi
+[ARCHITECTURE.md](ARCHITECTURE.md) bağımlılık sınırlarını; [OWNERSHIP.md](OWNERSHIP.md) port/veri ve klasör sahiplerini tanımlar. Ortak tiplerin kod karşılığı packages/contracts içinde #3 tarafından hazırlanacak; belge v0 bugünden kullanılabilir.
