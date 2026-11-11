@@ -1,0 +1,19 @@
+# Yerel sırlar
+.env
+.env.*
+!.env.example
+
+# Editör ve sistem
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Yerel çalışma çıktıları
+*.log
+node_modules/
+.next/
+dist/
+coverage/
+.venv/
+__pycache__/
