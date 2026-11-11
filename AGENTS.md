@@ -28,3 +28,9 @@ Bütün skill'leri birden yükleme. Dosyalar repo ile gelir; otomatik keşif yok
 - Çalıştırılmayan testi geçti diye yazma. Teslimde dosyalar, doğrulama komutu/sonucu ve kalan entegrasyonu belirt.
 - Kısmi PR: Refs #N; yalnız tüm issue ölçütleri tamamlanınca Closes #N. Bir ekip arkadaşı incelemeden merge etme.
 - Anahtarlar, .env ve gerçek kullanıcı veri dışa aktarımları commit edilmez.
+
+## Ortak çalışmayı koru
+- Kişi başına tek aktif issue; ilk PR için tüm özelliğin bitmesini bekleme. Port/fake ile tek davranış veya incelenebilir belge dilimi teslim et.
+- PR'da başka arkadaşın çalıştırabileceği komutu, önkoşulları ve entegrasyon durumunu yaz.
+- Modülün yerel başarısını uygulamanın başarısı sayma. Bağlanmamış işleri docs/INTEGRATION.md ve #13 altında görünür tut.
+- #13 stub ile hemen başlar; gerçek ortak demo kanıtı olmadan #13/milestone kapanmaz. #4 bağlama, #13 demo takibi sahibidir; kişiler henüz atanmadı.

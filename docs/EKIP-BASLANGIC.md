@@ -74,3 +74,9 @@ sadece fake ile test edilen işi “uygulama tamamen çalışıyor” diye sunma
 - [Hangi dosya kimin görevi?](OWNERSHIP.md)
 - [Ajan kuralları](../AGENTS.md)
 - [AI ile katkı](AI-COLLABORATION.md)
+
+## Birbirimizden kopmamak için
+Bir aktif görev al; ilk çalışma oturumunda küçük bir PR çıkar ve tahmini teslimini issue'ya yaz.
+Başkasının PR'ını kendi bilgisayarında dene. Her hafta ekipçe belirleyeceğimiz saatte aynı
+uygulamanın main sürümünü gösterelim. Çalışan modül ile birleşmiş uygulama durumunu
+[entegrasyon tablosunda](INTEGRATION.md) ayrı takip ediyoruz.
